@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Letsremit - Transfer money faster, cheaper and better.</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/bxslider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><img src="img/logo.png" alt="Letsremit"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a  href="send-money.html">Send money to</a></li>
+                    <li><a  href="how-it-works.html">how it works</a></li>
+                    <li><a  href="#">help</a></li>
+                    <li><a  href="register.html" class="btn btn-register">Register</a></li>
+                    
+					<!-- Login Dropdown Starts -->
+					<li class="dropdown"><a  href="#" class="btn btn-login" href="#" class="dropdown-toggle" data-toggle="dropdown">login</a>
+					<ul id="login-dp" class="dropdown-menu">
+							<li>
+								 <div class="row">
+										<div class="col-md-12">
+											Login via
+											<div class="social-buttons">
+												<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+												<a href="#" class="btn btn-gplus"><i class="fa fa-google-plus"></i> Google</a>
+											</div>
+											or
+											 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+													<div class="form-group">
+														 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+														 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+													</div>
+													<div class="form-group">
+														 <label class="sr-only" for="exampleInputPassword2">Password</label>
+														 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+														 <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+													</div>
+													<div class="form-group">
+														 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+													</div>
+													<div class="checkbox">
+														 <label>
+														 <input type="checkbox"> keep me logged-in
+														 </label>
+													</div>
+											 </form>
+										</div>
+										<div class="bottom text-center">
+											New here ? <a href="register.html"><b>Join Us</b></a>
+										</div>
+								 </div>
+							</li>
+						</ul>
+					</li>
+				<!-- Login Dropdown Ends here -->	
+					
+					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+			 <div class="col-sm-5">
+			     <div class="header-left">
+				   <h2>Transfer money faster, cheaper and better</h2>
+				   <p>Banks and other providers could charge you up to 5% in hidden costs when sending money abroad. CC Avenue is up to 8x cheaper. It's only fair.</p>
+				 </div>
+			 </div>
+			 
+			  <div class="col-sm-offset-2 col-sm-5">
+			     <div class="header-right">
+				    <form class="navbar-form navbar-search" role="search">
+					   <div class="form-body">	
+							<div class="input-group border-bottom">
+								<label>You send</label>
+								<input class="form-control" type="text" placeholder="2000">
+								<div class="input-group-btn">
+									<button type="button" class="btn btn-search">
+												<span class="flag"><img src="img/flags/f1.png"></span>
+												<span class="label-icon">GBP</span>
+											</button>
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+										<span class="fa fa-sort-down"></span>
+									</button>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li>
+											<a href="#">
+												<span class="flag"><img src="img/flags/f2.png"></span>
+												<span class="label-icon">INR</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="flag"><img src="img/flags/f3.png"></span>
+											<span class="label-icon">EUR</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div> 
+
+						   <div class="input-group">
+								<label>Recipient gets</label>
+								<input class="form-control" type="text" placeholder="2878">
+								<div class="input-group-btn">
+									<button type="button" class="btn btn-search">
+												<span class="flag"><img src="img/flags/f2.png"></span>
+												<span class="label-icon">Eur</span>
+											</button>
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+										<span class="fa fa-sort-down"></span>
+									</button>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li>
+											<a href="#">
+												<span class="flag"><img src="img/flags/f2.png"></span>
+												<span class="label-icon">INR</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+											<span class="flag"><img src="img/flags/f3.png"></span>
+											<span class="label-icon">EUR</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<div class="tranfer-form-footer">
+						<p>Exchange rate guaranteed: 1.1605 (9 mins ago)
+                              You could save up to: £ 47.99 Fee (included): £ 9.95</p>
+                         <button class="btn btn-info">Get Started</button> 
+						</div>
+						
+					</form>
+					
+				 </div>
+			  </div>	 
+			 
+			 
+			</div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row text-center">
+			
+                <div class="col-md-4">
+                    <span class="icon-box">
+                        <img src="img/icon-lock.png">
+                    </span>
+                    <h4 class="service-heading">Safe and secure</h4>
+                    <p class="text-muted">We put technology on your side, keeping you safe with state-of-the art security.</p>
+                </div>
+				
+                <div class="col-md-4">
+                    <span class="icon-box">
+                        <img src="img/icon-touch.png">
+                    </span>
+                    <h4 class="service-heading">Easy to use</h4>
+                    <p class="text-muted">We deliver your cash quickly, in a way that suits you.</p>
+                </div>
+				
+                <div class="col-md-4">
+                    <span class="icon-box">
+                        <img src="img/icon-truck.png">
+                    </span>
+                    <h4 class="service-heading">Fast delivery</h4>
+                    <p class="text-muted">We deliver your cash quickly, in a way that suits you.</p>
+                </div>
+				
+				<div class="col-md-4">
+                    <span class="icon-box">
+                        <img src="img/icon-ccare.png">
+                    </span>
+                    <h4 class="service-heading">Top customer care</h4>
+                    <p class="text-muted">We put technology on your side, keeping you safe with state-of-the art security.</p>
+                </div>
+				
+                <div class="col-md-4">
+                    <span class="icon-box">
+                        <img src="img/icon-money.png">
+                    </span>
+                    <h4 class="service-heading">100% money back guarantee</h4>
+                    <p class="text-muted">We’re simple to use, 24/7, online or on your mobile.</p>
+                </div>
+				
+                <div class="col-md-4">
+                    <span class="icon-box">
+                        <img src="img/icon-rates.png">
+                    </span>
+                    <h4 class="service-heading">Low fees & excellent rates</h4>
+                    <p class="text-muted">We deliver your cash quickly, in a way that suits you.</p>
+                </div>
+				
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Testimonials Section -->
+	 <section class="testimonial">
+        <div class="container">
+	       <div class="row">
+		     <div class="col-sm-12">
+			   <div class="scection-heading">
+			     <h2>What our customers says</h2>
+			     <h4>It’s your money, only perfect is good enough. Read all the reviews at <a href="#">Trustpilot.com</a></h4>
+			   </div>
+			 </div>
+		     <div class="col-sm-12">
+			   <ul class="bxslider">        
+				  <li>
+				    <div class="bx-content">
+				       <div class="client-info">
+					     <div class="img-box"><img src="img/client.jpg"></div>
+						 <p>John Doe</p>
+					   </div>
+					   <div class="content-area">
+					     <p>Found out about CC Avenue through a friend. They offer good rates and extremely speedy transfer of money to the recipients. I initially thought they were too good to be true but my friend convinced me to trust and try. Best advice ever.!!!</p>
+						 <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+					   </div>
+					</div>
+				  </li>
+				  
+				  <li>
+				    <div class="bx-content">
+				       <div class="client-info">
+					     <div class="img-box"><img src="img/client.jpg"></div>
+						 <p>John Doe</p>
+					   </div>
+					   <div class="content-area">
+					     <p>Found out about CC Avenue through a friend. They offer good rates and extremely speedy transfer of money to the recipients. I initially thought they were too good to be true but my friend convinced me to trust and try. Best advice ever.!!!</p>
+						 <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+					   </div>
+					</div>
+				  </li>
+				  
+				</ul>
+			 </div>
+		   </div>
+	    </div>
+	 </section>
+	 
+	 
+	  <!-- Get Started Section -->
+	 <section class="get-started">
+	    <div class="container">
+		   <h3>24x7 customer support</h3>
+		   <p>We don't do complicated automated systems. We have great people ready to support whenever you need it</p>
+		   <a href="#" class="btn btn-primary">Get Started Now</a>
+		</div>
+	 </section>
+    
+   <!------------------------- Footer ------------------------->
+    <footer class="col-xs-12">
+        <div class="row">
+            <section class="bottom-links">
+               <div class="container">
+                 <div class="row">
+                   <div class="col-sm-3">
+                     <div class="links-box">
+                       <h3>How it works</h3>
+                       <ul>
+                         <li><a href="#">About us</a></li>
+                         <li><a href="#">Security</a></li>
+                         <li><a href="#">Our Partners</a></li>
+                         <li><a href="#">Support</a></li>
+                         <li><a href="#">Terms and Conditions</a></li>
+                       </ul>
+                     </div>
+                   </div> 
+                   <div class="col-sm-3">
+                     <div class="links-box">
+                       <h3>Contact us</h3>
+                       <ul>
+                         <li><a href="#">Blog</a></li>
+                         <li><a href="#">Check Transfer</a></li>
+                         <li><a href="#">Media Centre</a></li>
+                         <li><a href="#">Affiliates</a></li>
+                         <li><a href="#">Careers</a></li>
+                       </ul>
+                     </div>
+                   </div>
+                   <div class="col-sm-3">
+                     <div class="links-box">
+                       <h3>Send money online</h3>
+                       <ul>
+                         <li><a href="#">Send money to Europe</a></li>
+                         <li><a href="#">Send money to Africa</a></li>
+                         <li><a href="#">Send money to the America</a></li>
+                         <li><a href="#">Send money to Nigeria</a></li>
+                         <li><a href="#">Send money to Poland</a></li>
+                       </ul>
+                     </div>
+                   </div>
+                   <div class="col-sm-3">
+                     <div class="links-box">
+                       <h3>Be in touch</h3>
+                        <ul class="list-inline social-buttons">
+                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                       </ul>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            </section>
+            <div class="col-md-12 main-footer">
+                <div class="container">
+                    <div class="row">
+                        <span class="copyright">Copyright &copy; Letsremit, 2016</span>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </footer>
+<!------------------------- Footer ------------------------->
+
+<!------------------------- jQuery ------------------------->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/custom.js"></script>
+    <script src="js/bxslider.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider();
+		});
+	</script>
+	<script>
+		$(function(){
+		$(".input-group-btn .dropdown-menu li a").click(function(){
+
+			var selText = $(this).html();
+
+		   $(this).parents('.input-group-btn').find('.btn-search').html(selText);
+		});
+		});
+	</script>	
+<!------------------------- jQuery ------------------------->
+
+</body>
+</html>
